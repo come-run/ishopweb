@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration:none;
+    color:#333;
+}
+
+
+/*导航*/
+.topnav_con{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.topnav{
+    width: 100%;
+    height: 103px;
+    border-bottom: 10px solid #d0d0d0;
+}
+.topnav_con .topnav_left{
+    width: 207px;
+    height: 103px;
+    float: left;
+
+}
+.topnav_con topnav_left img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.topnav_con .topnav_right{
+    float: right;
+}
+
+.topnav_right ul li{
+    font-size: 18px;
+    color: #2f2f2f;
+    line-height: 103px;
+    float: left;
+    margin-left: 81px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+.topnav_right ul li.navactive::after{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: #ff7f57;
+
+}
+
+
+/*banner*/
+.banner{
+    width: 100%;
+    height: auto;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.pinpai{
+    width: 100%;
+    height: 556px;
+    background: #ffffff;
+}
+
+.pinpai_con{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.pinpai_top{
+    width: 100%;
+    height: auto;
+}
+
+.pinpai_top img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.pinpai_bottom{
+    margin-top: 20px;
+    width: 100%;
+    height: 344px;
+}
+.pinpai_bottom ul{
+    width: 100%;
+    height: 100%;
+}
+
+.pinpai_bottom ul li{
+    width: 376px;
+    height: 100%;
+    margin-right: 35px;
+    float: left;
+}
+.pinpai_bottom ul li:last-child{
+    margin-right: 0;
+}
+
+.pinpai_bottom ul li .pinpailist{
+    width: 100%;
+    height: auto;
+}
+
+.pinpai_bottom ul li .pinpailist img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.pinpaijiesao{
+    font-size: 28px;
+    color: #ff7c2a;
+    line-height: 111px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tupian1{
+    width: 100%;
+}
+
+.tupian1 img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.tupian2{
+    width: 100%;
+    height: 768px ;
+}
+.tupian2_con{
+    width: 1200px;
+    height: 768px;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+.tupian2_conL{
+    position: absolute;
+    width: 429px;
+    height: 933px;
+    left: 0;
+    top:-83px;
+    z-index: 62;
+}
+
+.tupian2_conL img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.tupian2_conR{
+    width: 667px;
+    height: 665px;
+    float: right;
+    margin-right: 45px;
+    margin-top: 51px;
+}
+
+.tupian2_conR ul{
+    width: 100%;
+    height: 100%;
+}
+.tupian2_conR ul li{
+    width: 332px;
+    height: 331px;
+    float: left;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+
+.tupian2_conR ul li:nth-child(2n){
+    margin-right: 0;
+}
+
+
+
+.productlist{
+    width: 100%;
+    height: 899px;
+}
+
+.productlist_con{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.productlist_con img{
+    display: block;
+    width: 100%;
+    height: 191px;
+}
+
+.productlist_bottom{
+    width: 100%;
+    height: 708px;
+    position: relative;
+}
+
+.lunbolist{
+    width: 100%;
+    height: 424px;
+    padding: 26px 10px;
+    box-sizing: border-box;
+}
+
+.lunbolist ul li{
+    width: 364px;
+    border-right: 2px solid #dedede;
+    float: left;
+}
+
+.lunbolist ul li:nth-child(2){
+    margin-left: 84px;
+}
+
+.lunbolist ul li:nth-child(3){
+    border-right: 0;
+}
+.lunbolist ul li img{
+    width: auto;
+    height: 282px;
+}
+
+.lunbolist ul li:nth-child(3) img{
+    margin-left: 84px;
+}
+.lunbolist ul li:nth-child(3) .productname{
+    margin-left: 30px;
+}
+
+.productname{
+    width: 282px;
+    font-size: 32px;
+    color: #343434;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.productlist_bottom .qiu{
+    width: 200px;
+    height: auto;
+    display: inline;
+    margin:  72px auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.qiu .swiper-pagination-bullet{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #b5b5b5;
+    float: left;
+    margin-right: 20px;
+}
+
+.qiu .swiper-pagination-bullet.swiper-pagination-bullet-active{
+   background: #ff9a30;
+}
+.bottom{
+    width: 100%;
+    height: auto;
+}
+
+.bottom img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
